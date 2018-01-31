@@ -7,9 +7,10 @@ package belajar.spring1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import KelasAnot.Anot;
+import JdbcSpring.Anot;
 import tdi.bootcamp.belajar.spring1.impl.HitungLingkaran;
 import tdi.bootcamp.belajar.spring1.impl.HitungPersegi;
+import tdi.bootcamp.belajar.spring1.service.HitungServices;
 
 /**
  *
@@ -25,5 +26,12 @@ public class MainAnot {
         
         HitungLingkaran lgkr = (HitungLingkaran)context.getBean(HitungLingkaran.class);
     	System.out.println(lgkr.hitungLuas(20));
+
+//      Memanggil package anot
+//        HitungPersegi psgi = (HitungPersegi)context.getBean("hsPersegi");
+//    	System.out.println(psgi.hitungLuas(10));
+//        
+//        HitungLingkaran lgkr = (HitungLingkaran)context.getBean("hsLingkaran");
+//    	System.out.println(lgkr.hitungLuas(20));
     }
 }

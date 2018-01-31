@@ -11,6 +11,7 @@ import tdi.bootcamp.belajar.spring1.service.HitungServices;
 //    }
 
 //Menggunakan Anot
+//@Component("hsLingkaran")
 @Component("hitungServices")
 public class HitungLingkaran implements HitungServices{
     
