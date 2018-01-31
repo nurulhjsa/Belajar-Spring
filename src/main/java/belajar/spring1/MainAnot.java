@@ -7,7 +7,7 @@ package belajar.spring1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import tdi.bootcamp.belajar.spring1.impl.Anot;
+import KelasAnot.Anot;
 import tdi.bootcamp.belajar.spring1.impl.HitungLingkaran;
 import tdi.bootcamp.belajar.spring1.impl.HitungPersegi;
 

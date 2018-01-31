@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tdi.bootcamp.belajar.spring1.impl;
+package KelasAnot;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import tdi.bootcamp.belajar.spring1.impl.HitungLingkaran;
+import tdi.bootcamp.belajar.spring1.impl.HitungPersegi;
 
 /**
  *
